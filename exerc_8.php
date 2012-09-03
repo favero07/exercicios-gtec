@@ -67,8 +67,6 @@
         $('form').submit(function(el){
           el.preventDefault();
 
-          // console.log($(this).attr("action"));
-          // console.log($(this).serialize());
           $.post({
             url: $(this).attr("action"),
             data: $(this).serialize()
