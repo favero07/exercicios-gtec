@@ -14,11 +14,13 @@
     <a href="/gtec/exerc_9.php?pagina=contato">Contato</a>
     <a href="/gtec/exerc_9.php?pagina=sobremim">Sobre Mim</a>
     <?php
-      if ($_GET["pagina"]=="contato") {
-        include "includes/contato.php";
-      } else if ($_GET["pagina"]=="sobremim")
-        include "includes/sobremim.php";
-      else {
+      if (isset($_GET["pagina"])){
+        if($_GET["pagina"]=="contato") {
+          include "includes/contato.php";
+        } else if ($_GET["pagina"]=="sobremim"){
+          include "includes/sobremim.php";
+        }
+      } else {
         include "includes/home.php";
       }
 ?>

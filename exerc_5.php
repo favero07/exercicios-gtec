@@ -50,7 +50,7 @@
     <?php
       $pc1["processador"] = "AMD K6-2 500";
       $pc1["memoria"] = "256MB";
-      $pc1["hd"] = "20GB";
+      $pc1["hard-disk"] = "20GB";
 
       $pc2["processador"] = "Intel Pentium 4";
       $pc2["memoria"] = "2GB";
