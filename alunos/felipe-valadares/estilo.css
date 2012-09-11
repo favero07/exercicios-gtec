@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+
+#topo {	
+	margin-bottom: 10px;
+}
+
+	h1 {
+		margin: 0;
+		padding: 20px;
+		background-color: #300;
+		border-bottom: 4px solid red;
+	}
+
+	h1 a{
+		font-size: 44px;
+		color: #ccc;
+		text-shadow: #888 1px 1px 2px;
+		text-decoration: none;
+	}
+
+	h1 a:hover {
+		color: white;
+	}
+
+#menu {
+	background-color: #e4e4e4;
+	border: 1px solid #888;
+	margin-left: 10px;;
+	width: 200px;
+	float:left;
+}
+
+#conteudo {
+	padding: 10px;
+}
+
+h2 {
+	margin-top: 0;
+	color: #300;
+}
+
+#rodape {
+	border-top: 4px solid red;
+	text-align: center;
+	color: #300;
+	font-weight: bold;
+	margin: 580px 0px;
+}
+#exerc{
+	width:300px;
+	float:left;
+	margin:20px 20px;
+}
+	
+
